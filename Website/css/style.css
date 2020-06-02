@@ -1,0 +1,153 @@
+body{
+	background: aliceblue;
+	margin: 0;
+}
+.link-title{
+	text-decoration: none;
+	font-size:24px;
+	color:gray;
+}
+.container{
+	width:780px;
+	margin:0 auto;
+	background:white;
+	box-shadow: 0px 9px 13px 5px;
+}
+
+.header{
+padding: 45px 0 20px 40px;
+margin: 0 auto;
+
+}
+
+.menu{
+	background:#E7D0E3 ;	
+	padding: 6px 0 6px 45px;
+	border: 1px solid lightcoral;
+	margin: 0 auto;
+	
+}
+
+.menu a{
+color: lightcoral;
+text-decoration: none;
+font-size: 14px;
+font-family: "Times New Roman", "Arial Narrow", "Myriad pro";
+}
+
+.menu a:hover {
+color:black;
+}
+aside{
+	float:left;
+	width:120px;
+	padding: 30px 0 0 40px;
+}
+h1{
+	
+	margin:0px;
+	color: #9CD6E7;
+	font-size: 24px;
+	font-family: "Times New Roman", "Arial Narrow", "Myriad pro";
+	font-weight: normal;
+}
+
+h2{
+color: beige;
+font-size:15px;
+margin:20px 0 5px 0;
+}
+
+.main{
+	margin: 0 0 0 180px;
+	padding:35px 40px 30px 0;
+	color: black;
+	font-family:"Georgia";
+	line-height: 18px;
+	text-emphasis: justify;
+}
+#home-image img{
+	width: 100%;
+}
+footer{
+	padding:6px 40px 6px 40px;
+	background:gray;
+	font-family: "Lucida Sans Unicode ";
+	color: #9CD6E7;
+	font-size: 11px;
+	text-decoration: right;	
+}
+footer a{
+	text-decoration: none;
+	color:lightcoral; 
+}
+.footer a:hover {
+color:black;
+}
+.seperator{
+	color:white;
+	font-size:11px;
+}
+/******************About Page Styles**************/
+#about-page #home-image img{
+	width: 70%;
+	float: left;
+}
+#about-page #profile-info{
+	float: right;
+	width:20%;
+	margin: 5px;
+}
+#profile-info h2{
+	color: lightcoral;
+}
+#about-page .description{
+	clear: both;
+	margin-bottom: 20px;
+}
+/******************Contact Page Styles**************/
+#contact-page #form{
+	width: 500px;
+    padding: 10px 10px 10px 10px;
+    margin: 0 auto;
+	box-shadow: 0px 9px 13px 5px;
+	border-radius:5px;
+} 
+#contact-page .main h1{
+	text-align:center;
+	margin-bottom:20px;
+}
+
+#contact-page #form input{
+	width: 100%;
+    border-radius:5px;
+    height: 20px;
+    background: lightgray;
+}
+#contact-page #form #message{
+	width: 100%;
+	border: 2px solid black;
+    border-radius: 5px;
+    background: lightgray;
+}
+#contact-page #form #submit{
+	height: 30px;
+    background:#E7D0E3;
+	color: lightcoral;
+}
+#contact-page #form #submit:hover{
+	color: black;
+}
+.container .header{
+	background: url(../images/background.webp);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+
+
+
+
+
+
+
